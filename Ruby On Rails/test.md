@@ -61,3 +61,27 @@ USER=[a, b, c]
     user.each.do |Subuser| = [a,b,c]
     subuser. each. do |user| = b
     end end
+
+    -------
+
+
+
+    get post는 교통수단과 같음 . 그러나 버스와 비행기만큼 다르다. 그러나 목적지에 도착하는 것만은 같다.
+
+    데이터를 보내는 방식- form태그.
+    폼태그- html에서 데이터를 보내는 태그.
+    인풋에 있는 데이터를 보낸다.
+    -어떤 방식인지? > get, post
+
+    >라우트와 비슷 - 겟과 포스트
+    경로로 보내다. 
+
+    action- 어디로? (주소 쓰기)
+
+    input에는 메인값을 써야 보내는 것이 가능하다. (noodle.erb 폴더 안에...)
+
+    get방식은 주소창에 ?를 붙인다.
+    변수는 &(엔퍼센트) 분리
+    url? name-value 변수-값
+
+get방식- 네임값을 url로 보낸다.
